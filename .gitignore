@@ -3,8 +3,8 @@
 /llm_project/fine_tuned_llama
 /llm_project/fine_tuned_model
 /merging/last_run_prepared
-/merging/PEFT-trained-model
-/merging/qlora-out
+/merging/PEFT-trained-model*
+/merging/qlora-out*
 /merging/wandb
 =======
 .DS_store

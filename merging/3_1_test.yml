@@ -7,11 +7,11 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: ../dataset_creation/data.json
+  - path: ../dataset_creation/data_2.json
     type: context_qa.load_v2 
 dataset_prepared_path:
 val_set_size: 0
-output_dir: ./qlora-out
+output_dir: ./qlora-out2
 
 adapter: qlora
 lora_model_dir:
@@ -30,7 +30,7 @@ lora_fan_in_fan_out:
 wandb_project: "Axolotl"
 wandb_entity:
 wandb_watch:
-wandb_name: "training_1"
+wandb_name: "training_2"
 wandb_log_model:
 
 gradient_accumulation_steps: 4
